@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<id>1</id>
+	<name>Caps</name>
+	<date>12-06-2016</date>
+	<items>
+		<set>
+			<type>adult</type>
+			<object>
+				<id>1</id>
+				<sku>001</sku>
+				<label>one</label>
+				<preview>/images/preview/AUG01013.png</preview>
+				<main>/images/big/AUG01013.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>2</id>
+				<sku>002</sku>
+				<label>two</label>
+				<preview>/images/preview/MYS00014.png</preview>
+				<main>/images/big/MYS00014.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>3</id>
+				<sku>003</sku>
+				<label>three</label>
+				<preview>/images/preview/MYS00016.png</preview>
+				<main>/images/big/MYS00016.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>3</id>
+				<sku>004</sku>
+				<label>four</label>
+				<preview>/images/preview/MYS00030.png</preview>
+				<main>/images/big/MYS00030.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+		</set>
+		
+		<set>
+			<type>child</type>
+			<object>
+				<id>1</id>
+				<sku>001</sku>
+				<label>one</label>
+				<preview>/images/preview/AUG01013.png</preview>
+				<main>/images/big/AUG01013.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>2</id>
+				<sku>002</sku>
+				<label>two</label>
+				<preview>/images/preview/MYS00014.png</preview>
+				<main>/images/big/MYS00014.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>3</id>
+				<sku>003</sku>
+				<label>three</label>
+				<preview>/images/preview/MYS00016.png</preview>
+				<main>/images/big/MYS00016.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+			
+			<object>
+				<id>3</id>
+				<sku>004</sku>
+				<label>four</label>
+				<preview>/images/preview/MYS00030.png</preview>
+				<main>/images/big/MYS00030.png</main>
+				<baseprice>0.00</baseprice>
+				<comment></comment>
+			</object>
+		</set>
+	</items>
+	<colors>
+		<color>
+			<id>1</id>
+			<label>red</label>
+			<code>ff0000</code>
+			<value>0xff0000</value>
+			<value>0xff0000</value>
+			<preview>red</preview>
+		</color>
+		
+		
+		<color>
+			<id>2</id>
+			<label>blue</label>
+			<code>00ff00</code>
+			<value>0x00ff00</value>
+			<value>0x00ff00</value>
+			<preview>blue</preview>
+		</color>
+		
+		<color>	
+			<id>3</id>
+			<label>green</label>
+			<code>0000ff</code>
+			<value>0x0000ff</value>
+			<value>0x0000ff</value>
+			<preview>green</preview
+		></color>
+	</colors>
+</configuration>

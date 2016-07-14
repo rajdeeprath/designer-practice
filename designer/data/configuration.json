@@ -1,0 +1,340 @@
+{
+  "configuration": {
+    "id": "1",
+    "name": "Caps",
+    "date": "12-06-2016",
+	"itemHolder": {
+		"width":"400",
+		"height":"400"
+	},
+	"labelHolder": {
+		"width":"200",
+		"height":"90",
+		"x":"100",
+		"y":"100"
+	},
+    "items": {
+      "set": [
+        {
+          "type": "adult",
+          "object": [
+            {
+              "id": "1",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "2",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "3",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "4",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            },
+			{
+              "id": "5",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "6",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "7",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "8",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            },
+			{
+              "id": "1",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "2",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "3",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "4",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            },
+			{
+              "id": "5",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "6",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "7",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "8",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            },
+			{
+              "id": "1",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "2",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "3",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "4",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            },
+			{
+              "id": "5",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "6",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "7",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "8",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            }
+          ]
+        },
+        {
+          "type": "child",
+          "object": [
+            {
+              "id": "1",
+              "sku": "001",
+              "label": "one",
+              "preview": "images/preview/AUG01013.png",
+              "main": "images/big/AUG01013.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "2",
+              "sku": "002",
+              "label": "two",
+              "preview": "images/preview/MYS00014.png",
+              "main": "images/big/MYS00014.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "3",
+              "sku": "003",
+              "label": "three",
+              "preview": "images/preview/MYS00016.png",
+              "main": "images/big/MYS00016.png",
+              "baseprice": "0.00"
+            },
+            {
+              "id": "4",
+              "sku": "004",
+              "label": "four",
+              "preview": "images/preview/MYS00030.png",
+              "main": "images/big/MYS00030.png",
+              "baseprice": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "colors": {
+      "color": [
+        {
+          "id": "1",
+          "label": "red",
+          "code": "ff0000",
+          "value": [
+            "0xff0000"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "2",
+          "label": "blue",
+          "code": "00ff00",
+          "value": [
+            "0x00ff00"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "3",
+          "label": "green",
+          "code": "0000ff",
+          "value": [
+            "0x0000ff"
+          ],
+          "preview": ""
+        },
+		{
+          "id": "4",
+          "label": "red",
+          "code": "ff0000",
+          "value": [
+            "0xff0000"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "5",
+          "label": "blue",
+          "code": "00ff00",
+          "value": [
+            "0x00ff00"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "6",
+          "label": "green",
+          "code": "0000ff",
+          "value": [
+            "0x0000ff"
+          ],
+          "preview": ""
+        },
+		{
+          "id": "7",
+          "label": "red",
+          "code": "ff0000",
+          "value": [
+            "0xff0000"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "8",
+          "label": "blue",
+          "code": "00ff00",
+          "value": [
+            "0x00ff00"
+          ],
+          "preview": ""
+        },
+        {
+          "id": "9",
+          "label": "green",
+          "code": "0000ff",
+          "value": [
+            "0x0000ff"
+          ],
+          "preview": ""
+        }
+      ]
+    }
+  }
+}

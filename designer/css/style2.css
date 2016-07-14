@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#main{
+	min-height:600px;	
+}
+
+
+.preview{
+	width:34px;
+	height:34px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	border:1px solid black;
+	
+	cursor: pointer; cursor: hand;
+}
+
+
+
+.preview2{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	border:1px solid black;
+	
+	cursor: pointer; cursor: hand;
+}
+
+
+
+.titlebar{
+	background-color:#000;
+	color:#FFF;
+	float:left;
+	width:100%;
+	padding-top:5px;
+	height:30px;
+	
+}
+
+.catalogContainer-holder{
+	
+	float:left;
+	width:100%;
+}
+
+.catalogContainer{
+	float:left;
+	width:100%;
+	margin:5px;
+	margin-bottom:10px;
+}
+
+#itemContainer{
+	width:100%;
+	height:600px;
+		
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#itemPlaceHolder{
+	position: relative;
+	
+	width:500px;
+	height:500px;
+	
+	border:dashed;
+	border-width:2px;
+	border-color:#000;
+}
+
+#mainImage{
+	width:500px;
+	height:500px;
+	
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+#labelPlaceHolder{
+	position: absolute;
+	
+	width:230px;
+	height:80px;
+	
+	top:auto;
+	bottom: 130px;
+	left: 120px;
+	
+	border:dashed;
+	border-width:2px;
+	border-color:#900;
+}
+
+
+/* =Structure Desktop
+-------------------------------------------------------------- */
+@media screen and (min-width : 1140px) {
+    #primary{
+        float: left;
+        margin-left: 25%;
+        width: 50%;
+        padding: 0 1em;
+		background-color:#CCC;
+    }
+ 
+    #secondary{
+        float: left;
+        margin: 0 0 0 -75%;
+        width: 25%;
+        clear: none;
+    }
+ 
+    #tertiary{
+        float: right;
+        width: 25%;
+        clear: none;
+    }
+}
+
+
+
+
+#messageWriterContainer 
+{
+	float:left;
+    display: table;
+}
+
+#messageWriterInnerContainer 
+{
+    display: table-row;
+}
+
+
+
+#messageWriterInnerContainer input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: table-cell;
+	width:auto;
+}
+
+
+#messageWriterInnerContainer input[type=button] {
+    background-color: #3CBC8D;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: table-cell;
+}
+
+
+
+
+
+/* =SAngular
+-------------------------------------------------------------- */
+.tabsdemoDynamicTabs md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicTabs md-content md-tabs {
+    border: 1px solid #e1e1e1; }
+    .tabsdemoDynamicTabs md-content md-tabs md-tab-content {
+      background: #f6f6f6; }
+    .tabsdemoDynamicTabs md-content md-tabs md-tabs-wrapper {
+      background: white; }
+  .tabsdemoDynamicTabs md-content h1:first-child {
+    margin-top: 0; }
+
+.tabsdemoDynamicTabs md-input-container {
+  padding-bottom: 0; }
+
+.tabsdemoDynamicTabs .remove-tab {
+  margin-bottom: 40px; }
+
+.tabsdemoDynamicTabs .demo-tab > div > div {
+  padding: 25px;
+  box-sizing: border-box; }
+
+.tabsdemoDynamicTabs .edit-form input {
+  width: 100%; }
+
+.tabsdemoDynamicTabs md-tabs {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+
+.tabsdemoDynamicTabs md-tab[disabled] {
+  opacity: 0.5; }
+
+.tabsdemoDynamicTabs label {
+  text-align: left; }
+
+.tabsdemoDynamicTabs .long > input {
+  width: 264px; }
+
+.tabsdemoDynamicTabs .md-button.add-tab {
+  transform: translateY(5px); }
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+*/

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/objectdesigner.js"></script>
+<title>Cap Designer</title>
+</head>
+
+<body>
+
+<div id="maincontainer" ng-app="objectDesigner">
+
+<div id="topsection">THIS IS THE HEADER</div>
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="titlebar">
+	<div class="innertube"><b>Content Column: <em>Fluid</em></b></div>
+</div>
+</div>
+</div>
+
+<div id="leftcolumn" ng-controller="objectDesignController">
+
+
+
+<div class="titlebar">
+	<div class="innertube"></div>
+</div>
+
+
+
+<div class="titlebar">
+	<div class="innertube"><b>DESIGNER CAPS</b></div>
+</div>
+
+
+
+
+<div class="catalogContainer">
+	<span class="preview" ng-repeat="object in objectSets[0].object" back-img="object"></span>
+</div>
+
+
+
+
+<div class="titlebar">
+	<div class="innertube">COLORS</div>
+</div>
+
+
+<div class="catalogContainer">
+	<span class="preview2" ng-repeat="color in colors" back-color="color"></span>
+</div>
+
+
+</div>
+
+<div id="rightcolumn">
+
+<div class="titlebar">
+	<div class="innertube">RIGHT COL</div>
+</div>
+
+</div>
+
+
+<div id="footer">
+THIS IS THE FOOTER
+</div>
+
+</div>
+
+</body>
+</html>

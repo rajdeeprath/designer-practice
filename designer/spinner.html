@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/angular-spinkit.min.css">
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-spinkit.min.js"></script>
+<script type="text/javascript"> 
+var app = angular.module('myapp', ['angular-spinkit']);
+app.controller('appController', function($scope) {
+
+});
+</script>
+<title>Cap Designer</title>
+</head>
+
+<body>
+    <div id="page">
+ 
+        <div id="main" ng-app="myapp" ng-controller="appController">
+        
+        <img width='800' height='600' alt='Your description' ng-src=="http://downloads.xenproject.org/Branding/Images/Mascot/Xen%20Big%20Panda%204242x3129.png" spinkit-image-preloader='wave-spinner' />
+            
+        </div><!--#main-->
+ 
+    </div><!--#page-->
+                    
+</body>
+</html>

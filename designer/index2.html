@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link rel="stylesheet" href="css/angular-spinkit.min.css">
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script type="text/javascript" src="js/angular-spinkit.min.js"></script>
+
+<script type="text/javascript" src="js/objectdesigner.js"></script>
+<title>Cap Designer</title>
+</head>
+
+<body>
+    <div id="page">
+ 
+        <div id="main" ng-app="objectDesigner" ng-controller="applicationController">
+            <div class="wrap">
+ 
+                <div id="primary">
+                    
+                    <div id="content" role="main">
+                        <p>Center Section/p>
+                    </div><!--#content-->
+                    
+                    <div id="itemContainer">
+                    
+                    
+                    	<div id="itemPlaceHolder">
+                        
+                        	<img id="mainImage" alt="Image Description" ng-src="{{activeItemImage}}" spinkit-image-preloader='pulse-spinner' />
+                        
+                        <div id="labelPlaceHolder">
+                        
+                        	<img id="mainLabel" alt="Image Description" ng-src="images/label.png" spinkit-image-preloader='pulse-spinner' />
+                        
+                        </div>
+                    
+	                    </div>
+                    
+                    </div>
+                    
+                </div><!--#primary-->
+ 
+                <div id="secondary" >
+                    
+                    <div class="widget">
+                        <p>Left Section</p>
+                    </div><!--.widget-->
+          
+                    
+                    <div class="titlebar">
+                        <div class="innertube"><b>OBJECT SELECTION</b></div>
+                    </div>
+                    
+                    
+                    <div class="catalogContainer-holder">
+                    	<div class="sample tabsdemoDynamicTabs" layout="column" ng-cloak="">
+                          <md-content class="">
+                            <md-tabs md-selected="selectedIndex" md-border-bottom="" md-autoselect="">
+                              <md-tab ng-repeat="set in objectSets" ng-disabled="set.disabled" label="{{set.type}}">
+                                <div class="demo-tab tab{{$index%4}}" style="padding: 5px;">
+                                  <div class="catalogContainer">
+                                    <span class="preview" ng-repeat="object in set.object" back-img="object" ng-click="loadItemImage(object)"></span>
+                                  </div>
+                                </div>
+                              </md-tab>
+                            </md-tabs>
+                          </md-content>
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="titlebar">
+                        <div class="innertube"><b>TEXT COLORS</b></div>
+                    </div>
+                    
+                    <div class="catalogContainer">
+                    	<span class="preview2" ng-repeat="color in colors" back-color="color" ng-click="setTextColor(color)"></span>
+                    </div>
+
+                    
+                </div><!--#secondary-->
+ 
+                <div id="tertiary">
+                    
+                    <div class="widget">
+                        <p>Right Section</p>
+                    </div><!--.widget-->
+                    
+                    <div class="titlebar">
+                        <div class="innertube"><b>TEXT WRITER</b></div>
+                    </div>
+                    
+                    
+                    <div id="messageWriterContainer">
+                    <div id="messageWriterInnerContainer">
+                    <input type="text" name="txtLabel" placeholder="Enter a printable label" ng-model="customLabel" my-maxlength="8" ng-maxlength="8" maxlength="8">
+                    <input type="button" name="btnApply" value="Apply"  ng-click="generateTextSamples(this)">
+                    </div>
+                    </div>
+                    
+                    
+                     <div class="titlebar">
+                        <div class="innertube"><b>TEXT STYLES</b></div>
+                    </div>
+                
+                </div><!--#tertiary-->
+                
+                
+ 
+            </div><!--.wrap-->
+        </div><!--#main-->
+ 
+    </div><!--#page-->
+                    
+</body>
+</html>
